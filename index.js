@@ -19,6 +19,10 @@ app.use(express.json())
 app.use(authRoute)
 app.use(productRoute)
 
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "index.html"));
+});
+
 
 
 
