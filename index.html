@@ -11,22 +11,12 @@
     <h2 style="text-align: center">Sinab ko'ring 👇</h2>
     
     <div style="text-align: center; margin-top: 50px">
-        <a href="#" onclick="copyText(event, this)">/get_all_tasks</a>
+        <a href="/get_all_tasks">GET ALL TASKS</a>
         
     </div>
         <div style="text-align: center; margin-top: 50px">
 
-            <a href="#" onclick="copyText(event, this)">/get_one_task/1db1ef3a-3e59-484c-a840-7bc9453697aa</a>
+            <a href="/get_one_task/1db1ef3a-3e59-484c-a840-7bc9453697aa">GET ONE</a>
         </div>
-
-    <script>
-      function copyText(event, element) {
-        event.preventDefault();
-        const text = element.innerText;
-        navigator.clipboard.writeText(text).then(() => {
-          alert("Nusxa olindi📋");
-        });
-      }
-    </script>
   </body>
 </html>
