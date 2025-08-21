@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Backend</title>
-</head>
-<body>
-    <h1 style="text-align: center;">SAYT ISHLAYAPTI</h1>
-</body>
+  </head>
+  <body>
+    <h1 style="text-align: center">SAYT ISHLAYAPTI</h1>
+
+    <h2 style="text-align: center">Sinab ko'ring 👇</h2>
+    
+    <div style="text-align: center; margin-top: 50px">
+        <a href="#" onclick="copyText(event, this)">/get_all_tasks</a>
+        
+    </div>
+        <div style="text-align: center; margin-top: 50px">
+
+            <a href="#" onclick="copyText(event, this)">/get_one_task/1db1ef3a-3e59-484c-a840-7bc9453697aa</a>
+        </div>
+
+    <script>
+      function copyText(event, element) {
+        event.preventDefault();
+        const text = element.innerText;
+        navigator.clipboard.writeText(text).then(() => {
+          alert("Nusxa olindi📋");
+        });
+      }
+    </script>
+  </body>
 </html>

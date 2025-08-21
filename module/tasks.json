@@ -1,7 +1,17 @@
 [
-    {
-        "id": "1db1ef3a-3e59-484c-a840-7bc9453697aa",
-        "title": "zoxasila@gmail.com",
-        "createById": "e46b3884-20d3-4e3b-a972-d39d45678efa"
-    }
+  {
+    "id": "1db1ef3a-3e59-484c-a840-7bc9453697aa",
+    "title": "maktabga borish",
+    "createById": "e46b3884-20d3-4e3b-a972-d39d45678efa"
+  },
+  {
+    "id": "d31c5c0f-8b41-4710-8c2e-0cf1f5a0d1b9",
+    "title": "do‘kondan non olish",
+    "createById": "e46b3884-20d3-4e3b-a972-d39d45678efa"
+  },
+  {
+    "id": "4fb58e69-62f7-4227-9c08-55f4a8e72e51",
+    "title": "kitob o‘qish",
+    "createById": "e46b3884-20d3-4e3b-a972-d39d45678efa"
+  }
 ]
